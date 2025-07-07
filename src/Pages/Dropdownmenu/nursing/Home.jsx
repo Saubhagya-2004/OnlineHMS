@@ -211,70 +211,7 @@ const Home = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-12">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
-              <h3 className="text-xl font-bold mb-4"> Nursing</h3>
-              <p className="text-gray-400">
-                Providing exceptional in-home nursing care with compassion and
-                professionalism.
-              </p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-              <ul className="space-y-2">
-                <li>
-                  <a
-                    href="#services"
-                    className="text-gray-400 hover:text-white"
-                  >
-                    Services
-                  </a>
-                </li>
-                <li>
-                  <a href="#about" className="text-gray-400 hover:text-white">
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#testimonials"
-                    className="text-gray-400 hover:text-white"
-                  >
-                    Testimonials
-                  </a>
-                </li>
-                <li>
-                  <a href="#contact" className="text-gray-400 hover:text-white">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
-              <address className="not-italic text-gray-400">
-                <p>123 Care Avenue</p>
-                <p>Medical City, MC 12345</p>
-                <p>Phone: (555) 123-4567</p>
-                <p>Email: info@elitecare.com</p>
-              </address>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Opening Hours</h4>
-              <p className="text-gray-400">24/7 Nursing Services</p>
-              <p className="text-gray-400">Office Hours: 8AM - 6PM</p>
-            </div>
-          </div>
-          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>
-              © {new Date().getFullYear()}  Nursing Care. All rights
-              reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      
     </div>
   );
 };
